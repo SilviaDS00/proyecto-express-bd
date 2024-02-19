@@ -15,7 +15,6 @@ app.get('/', (req, res) => {
     res.send('Hola, desde el servidor Express');
 });
 
-// inicia el servidor en el puerto 3001
 app.listen(3001, () => console.log('Server started on port 3001'));
 
 mongoose.connect('mongodb+srv://cironidas:CiroLeon*19@cluster0.kwvwrzg.mongodb.net/OrientaTech');
